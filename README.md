@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/pipeline.png" width="900">
+  <img src="devop_architect1.jpg" width="900">
 </p>
 
 
