@@ -1,16 +1,16 @@
-C:\aws>icacls "C:\aws\mykp.pem" /reset
-processed file: C:\aws\mykp.pem
+C:\aws>icacls "C:\aws\newkeypair.pem" /reset
+processed file: C:\aws\newkeypair.pem
 Successfully processed 1 files; Failed processing 0 files
 
 C:\aws>echo %username%
 Laptop
 
-C:\aws>icacls "C:\aws\mykp.pem" /grant:r "Laptop:R"
-processed file: C:\aws\mykp.pem
+C:\aws>icacls "C:\aws\newkeypair.pem" /grant:r "Laptop:R"
+processed file: C:\aws\newkeypair.pem
 Successfully processed 1 files; Failed processing 0 files
 
-C:\aws>icacls "C:\aws\mykp.pem" /inheritance:r
-processed file: C:\aws\mykp.pem
+C:\aws>icacls "C:\aws\newkeypair.pem" /inheritance:r
+processed file: C:\aws\newkeypair.pem
 Successfully processed 1 files; Failed processing 0 files
 
-C:\aws>ssh -i "mykp.pem" ubuntu@ec2-13-127-226-177.ap-south-1.compute.amazonaws.com
+C:\aws>ssh -i "newkeypair.pem" ubuntu@ec2-13-127-226-177.ap-south-1.compute.amazonaws.com
